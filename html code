@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>
+form2
+</title>
+</head>
+
+<body bgcolor="#9EAEAE">
+<h2>
+<center>
+<a class="pure-button pure-button-active" href="#">START</a>
+</h2>
+</center>
+<br>
+<br>
+<div>
+<bgcolor="#FF6666">
+
+
+  <form class="pure-form pure-form-stacked">
+  <fieldset> <center>
+  <legend><b>Machine Entry</b></legend>
+<br>
+   <table>
+   <tr>
+      <th><b>
+           <label for="number">Roll Number</label></th>
+   <td>
+      <input id="number" type="number" placeholder="Roll number">
+   </td>
+   </tr>
+
+   <tr>
+      <th>
+        <label for="password">Password</label></th>
+        <td><input id="password" type="password" placeholder="Password"></td>
+        
+</tr>
+<tr>  <th>      <label for="state">Dept</label></th>
+        <td><select id="state">
+            <option>B.tech</option>
+            <option>M.Sc</option>
+            <option>M.tech</option>
+            <option>MCA</option>
+            <option>B.Arch</option>
+        </select></td>
+        
+
+       <tr><td colspan ="2"><center><label for="remember" class="pure-checkbox">
+            <input id="remember" type="checkbox"> Remember me
+        </center></label>
+        </b></td></tr></table>
+
+        <button type="submit" class="pure-button pure-button-primary">SUBMIT</button>
+        <br>
+        <br>
+
+<center>
+
+<img src="index1.jpeg" width="50" height="50">
+<img src="index2.jpeg" width="50" height="50">
+<img src="index3.jpeg" width="50" height="50"><br>
+<img src="index4.jpeg" width="50" height="50">
+<img src="index5.jpeg" width="50" height="50">
+<img src="index6.jpeg" width="50" height="50"><br>
+<img src="index7.jpeg" width="50" height="50">
+<img src="index8.jpeg" width="50" height="50">
+<img src="index9.jpeg" width="50" height="50"><br>
+
+<img src="index0.jpeg" width="50" height="50">
+</center>
+
+<br>
+</center> </fieldset>
+</form>
+</div> 
+</html>
+</body>
+
