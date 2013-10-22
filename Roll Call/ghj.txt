@@ -1,0 +1,10 @@
+$result=mysql_query("Select Roll_Number,Date, Time from entry ",$conn);
+	$i=1;
+	while($row=mysql_fetch_array($result))
+	{
+?>
+	<tr align="center"<?php if($i%2) { ?> style="background:#CCCCCC" <?php } ?>>
+    <td align="center"><?php echo $row['Roll_Number'] ?></td>
+    <td align="center"><?php echo $row['Date'] ?></td>
+    <td align="center"><?php echo $row['Time'] ?></td>
+    </tr>
